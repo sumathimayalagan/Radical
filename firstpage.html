@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> STUDENT MANAGEMENT SYSTEM</title> 
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="validation.js"></script>
+
+</head>
+<body>
+    
+    <div id="head">STUDENT MANAGENMENT SYSTEM</div>
+    <div class="lk">
+    <form action="secondpage.html" autocomplete="off"  >
+<label>
+    <div>
+        <B class="b"><pre>First Name    :</pre><B> 
+            <input type="text" id="f">
+            <span id="FirstNameerror" class="red"></span> 
+    </div>
+
+    <div class="last-name"> <pre >Last Name     :</pre> 
+        <input  type="text" id="m">
+        <span id="LastNameerror" class="red"></span>
+    </div>
+
+    <div class="hh">
+       <div>
+        <pre>Location      :</pre><input type="text" id="sa">
+        <span id="Locationerror" class="red"></span>
+       </div>
+
+       <div>
+        <pre>Email         :</pre><input type="email" id="mail" placeholder="xxx@gmail.com">
+        <span id="Emailerror" class="red"></span>
+      </div>
+
+       <div>
+        <pre>DOB           :</pre>
+        <input id="p" type="date" placeholder="DD" pattern="[0-9]*" maxlength="2" size="2" /> 
+        
+      </div>
+
+       <div>
+        <pre>Education     :</pre><input type="text"  id="qa">
+        <span id="Educationerror"  class="red"></span>
+      </div>
+      
+      <div>
+       <pre>About         :</pre>
+       <input id="re" name="about" class="about" >
+     </div>
+
+      <div >
+        <input  type="submit" onclick="Add()" class="btn" value="submit"/>
+      </div>
+</div>
+</div> 
+
+
+</lable>
+</form>
+<p id="coll"></p>
+</body>
+</html>

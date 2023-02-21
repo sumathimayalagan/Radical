@@ -1,0 +1,146 @@
+.lk{
+    position: fixed;
+    left: 15%;
+}
+#f{
+    position: relative;
+    top: -0.8cm;
+    left: 4.2cm;
+}
+.last-name{
+    position:relative;
+    top: -1.8cm;
+    left: 10cm;
+
+
+}
+#m
+{
+    position: relative;
+    top: -0.9cm;
+    left: 4.2cm;
+
+}
+.hh{
+    position: relative;
+    top: -2cm;
+}
+#sa{
+    position: relative;
+    top: -0.8cm;
+    left: 4.2cm;
+}
+#mail{
+    position: relative;
+    top: -0.8cm;
+    left: 4.2cm; 
+}
+#p{
+position: relative;
+    top: -0.8cm;
+    left: 4.2cm;
+}
+#h{
+position: relative;
+    top: -0.8cm;
+    left: 4.5cm;
+}
+#r
+{
+position: relative;
+    top: -0.8cm;
+    left: 4.8cm;
+    
+}
+#qa{
+position: relative;
+    top: -0.8cm;
+    left: 4.2cm;
+}
+#re{
+position: relative;
+height: 90px;
+    top: -0.8cm;
+    left: 4.2cm;
+}
+.btn{
+width: 140px;
+height: 37px;
+position: relative;
+left: 4.5cm;
+
+border-radius: 1cm;
+background-color: rgb(52, 169, 212);
+font-size: 18px;
+font-weight:bold;
+color:black;
+
+
+
+
+}
+.btn:hover{
+background: #1C6EA4; }
+.btn:active {
+background: #2d86c1; }
+
+.b{
+font-size: 17px;
+
+}
+#head{
+display: flex;
+text-align: center;
+justify-content: center;
+font-size: xx-large;
+}
+body{
+background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+background-size: cover;
+}
+.table tr th {
+    text-align: center;
+
+    }
+    
+
+ tr:hover {background-color: #64b9b9;}
+
+.btn-two{
+    background-color: black;
+    border-radius: 1cm;
+    color: antiquewhite;
+    padding: 7px 30px;
+    position: fixed;
+    left: 90%;
+}
+
+h2{
+    font-size: medium;
+}
+
+
+
+.btn-two{
+    
+width: 110px;
+height: 40px;
+font-weight:bold;
+position: relative;
+right: -0.8cm;
+top:-0.8cm;
+}
+.btn-two:hover{
+    background: #576067; }
+    .btn-two:active {
+    background: #1d2122; }
+    
+
+
+/* 
+#search{
+    background-color: white;
+    padding: 5px 2px;
+    border-color: rgb(41, 34, 34);
+} */
+
